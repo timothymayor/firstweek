@@ -1,0 +1,171 @@
+/* p {
+     outline-color: red;
+ }*/
+ p.dotted {
+     outline-style: dotted;
+ }
+ p.dashed {
+     outline-style: dashed;
+ }
+ p.solid {
+     outline-style: solid;
+     border: 1px solid black;
+     outline-width: thin;
+     outline-color: red;
+ }
+ p.double {
+     outline-style: double;
+ }
+ p.groove {
+     outline-style: groove;
+     border: 1px solid black;
+     outline-width: medium;
+     outline-color: green;
+ }
+ p.ridge {
+     outline-style: ridge;
+     border: 1px solid black;
+     outline-width: thick;
+     outline-color: blue;
+     outline-offset: 15px;
+     margin: 30px;
+ }
+ p.insert {
+     outline-style: insert;
+     border: 1px solid black;
+     outline-width: 4px;
+     outline-color: yellow;
+ }
+ p.outset {
+     outline-style: outset;
+ }
+ img.b {
+    vertical-align: text-top;
+}
+ul.a {
+    list-style-type: circle;
+}
+ul.b {
+    list-style-type: square;
+}
+ol.c {
+    list-style-type: upper-roman;
+}
+ol.d {
+    list-style-type: lower-alpha;
+}
+/*
+ul.e {
+    list-style-image: url('google3.jpg');
+}
+*/
+
+ul.e {
+    list-style-type: none;
+}
+ul.e li:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background-image: url("../geeksforgeeks.jpg");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+} 
+
+ul.f {
+    list-style-type: none;
+} 
+ul.f li.nigeria:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background-image: url("../flags/nigeria.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+ul.f li.ghana:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background: url("../flags/ghana.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+ul.f li.kenya:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background:url("flags/kenya.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+ul.f li.jamaica:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background:url("flags/jamaica.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+ul.f li.america:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background:url("flags/america.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+} 
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+    border-radius: 15px 50px 30px;
+}
+.container {
+    position: relative;
+}
+ .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  
